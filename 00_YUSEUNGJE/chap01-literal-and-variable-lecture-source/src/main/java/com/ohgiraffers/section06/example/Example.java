@@ -2,7 +2,8 @@ package com.ohgiraffers.section06.example;
 
 public class Example {
     /*
-        어떤 상점에서 판매하는 상품의 가격이 정수(int) 형태로 주어집니다. 당신은 이 상품을 여러 개 구매하려고 합니다.
+        어떤 상점에서 판매하는 상품의 가격이 정수(int) 형태로 주어집니다.
+        당신은 이 상품을 여러 개 구매하려고 합니다.
         다음 요구사항에 따라 최종 결제 금액을 계산하는 자바 코드를 작성하세요.
         요구사항:
         상수(Constant): 부가세율(TAX_RATE)을 0.1 (10%)로 하는 상수를 선언하세요.
@@ -29,6 +30,30 @@ public class Example {
         최종 결제 금액: 39600원
      */
     public static void main(String[] args) {
+
+        // 부가세율(TAX_RATE)
+        final double TAX_RATE = 0.1;
+
+//        가격(price)
+        int price = 12000;
+        // 수량(quantity)
+        int quantity = 3;
+
+        // 세전 금액 계산
+        int preTaxTotal = price * quantity;
+
+        // 부가세 계산  (int * double = double)
+        double taxAmount = preTaxTotal * TAX_RATE;
+        double afterTaxTotal = preTaxTotal + taxAmount;
+
+        int finalTotal = (int) afterTaxTotal;
+
+
+        System.out.println("세전 금액: " + preTaxTotal + "원");
+        System.out.println("부가세: " + taxAmount + "원");
+        System.out.println("세후 금액: " + afterTaxTotal + "원");
+        System.out.println("최종 결제 금액: " + finalTotal + "원");
+
 
     }
 }

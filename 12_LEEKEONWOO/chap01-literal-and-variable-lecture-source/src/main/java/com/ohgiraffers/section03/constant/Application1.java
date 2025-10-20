@@ -13,6 +13,7 @@ public class Application1 {
 
         System.out.println("AGE = " + AGE);
 
-        int myAge = 10;
+        int myAge = AGE;
+        System.out.println("myAge = " + myAge);
     }
 }
