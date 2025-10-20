@@ -1,4 +1,4 @@
-package chap2_variable;
+package chap02_variable;
 
 /*
        어떤 상점에서 판매하는 상품의 가격이 정수(int) 형태로 주어집니다. 당신은 이 상품을 여러 개 구매하려고 합니다.
@@ -29,7 +29,7 @@ package chap2_variable;
        최종 결제 금액: 39600원
     */
 
-public class chap2_variable_example {
+public class chap02_variable_example {
     public static void main(String[] args) {
 
         final float TAX_RATE = 0.1f;

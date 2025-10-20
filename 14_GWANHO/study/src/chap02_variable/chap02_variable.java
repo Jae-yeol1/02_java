@@ -1,6 +1,6 @@
-package chap2_variable;
+package chap02_variable;
 
-public class chap2_variable_literal {
+public class chap02_variable {
     public static void main(String[] args) {
         System.out.println("A : " + (10 + 10));
 
