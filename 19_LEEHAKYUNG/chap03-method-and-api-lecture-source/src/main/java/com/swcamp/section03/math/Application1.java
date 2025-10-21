@@ -1,0 +1,15 @@
+package com.swcamp.section03.math;
+
+import java.sql.SQLOutput;
+
+public class Application1 {
+
+    public static void main(String[] args) {
+        // 절대값 : abs
+        System.out.println("-12.4의 절댓값: " + Math.abs(-12.4));
+
+        System.out.println("10과 20 중 더 작은 것은? : " + Math.min(10, 20));
+        System.out.println("10과 20 중 더 큰 것은? : " + Math.max(10, 20));
+
+    }
+}

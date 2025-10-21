@@ -14,10 +14,9 @@ public class Application2 {
          * 청소년
          * */
 
-        int age = 19;
+        int age = 7;
 
-        String limit = (age <= 13)? "어린이":(age > 19)? "성인":"청소년";
-
+        String limit = (age <= 13)? "잼민이" : (age > 19)? "늙은이" : "급식충";
         System.out.println(limit);
     }
 }

@@ -14,7 +14,7 @@ public class Application2 {
          * 청소년
          * */
 
-        int a = 20;
+        int a = 19;
         String result = (a <= 13)? "어린이" : (a < 19)? "청소년" : "성인";
         System.out.println(result);
 

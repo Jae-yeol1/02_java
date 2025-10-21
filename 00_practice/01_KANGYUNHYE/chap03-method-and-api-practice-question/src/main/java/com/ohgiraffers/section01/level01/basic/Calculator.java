@@ -8,6 +8,7 @@ public class Calculator {
     // 메소드명 : checkMethod
     // 호출하면 "메소드 호출 확인"을 출력하는 기능의 메소드
     public void checkMethod(){
+
         System.out.println("메소드 호출 확인");
     }
 
@@ -18,7 +19,13 @@ public class Calculator {
     // 출력하는 기능
 
     public String sumTwoNumber(int a, int b){
+
         return a+"과 "+b +"의 합은 "+ (a+b) +"입니다.";
+
+        /* 강사님
+        String result = "" +(firtst + second);
+        return result;
+         */
     }
 
 
@@ -29,6 +36,7 @@ public class Calculator {
     // 출력하는 기능
 
     public String multiTwoNumber(int a, int b){
+
         return a+"과 "+b +"의 곱은 "+ (a*b) +"입니다.";
     }
 

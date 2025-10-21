@@ -16,8 +16,11 @@ public class Application2 {
         double math = 50.6;
         double eng = 70.8;
 
-        double sum = kor + math + eng;
-        System.out.println("총점 : " + (int)sum);
-        System.out.println("평균 : " + (int)(sum / 3));
+        int total = (int)(kor +  math + eng);
+        int avg = total / 3;
+
+        System.out.println("-- 출력 예시 --");
+        System.out.println("총점 : " + total);
+        System.out.println("평균 : " + avg);
     }
 }

@@ -1,5 +1,7 @@
 package org.com.ohgiraffers.section01.method;
 
+import org.com.ohgiraffers.section02.package_and_import.test.calculator;
+
 public class application7 {
     public static void main(String[] args) {
         int first = 100;

@@ -11,5 +11,6 @@ public class Application {
         String mul = calculator.multiTwoNumber(3,4);
         System.out.println(mul);
         calculator.multiTwoNumber2(2,2);
+        // int result = caculator.multiTwoNumber2(a,b);
     }
 }

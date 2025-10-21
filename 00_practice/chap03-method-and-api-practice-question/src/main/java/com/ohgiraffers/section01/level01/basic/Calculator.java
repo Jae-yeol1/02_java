@@ -7,9 +7,15 @@ public class Calculator {
     // 반환값 : x
     // 메소드명 : checkMethod
     // 호출하면 "메소드 호출 확인"을 출력하는 기능의 메소드
+<<<<<<< HEAD
+
+    
+
+=======
     public void checkMethod(){
         System.out.println("메소드 호출 확인");
     }
+>>>>>>> 797f2fa212c934851e8135e97dbd3191ea199b71
 
     // 반환값 : String
     // 메소드명 : sumTwoNumber

@@ -5,16 +5,17 @@ public class Application {
     public static void main(String[] args) {
         Calculator cal = new Calculator();
 
+        cal.checkMethod();
+
         int a = 10;
         int b = 20;
-        String result1 = cal.sumTwoNumber(a, b);
-        String result2 = cal.multiTwoNumber(a, b);
 
-        cal.checkMethod();
-        System.out.println(result1);
-        System.out.println(result2);
+        String resultSum = cal.sumTwoNumber(a, b);
+        String resultMul = cal.multiTwoNumber(a, b);
+        System.out.println(resultSum);
+        System.out.println(resultMul);
+
         int result = cal.multiTwoNumber2(a, b);
         System.out.println(result);
-
     }
 }
