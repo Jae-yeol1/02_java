@@ -1,4 +1,4 @@
-package com.rlatjddms.typecasting;
+package com.rlatjddms.section05.typecasting;
 
 public class Application2 {
 

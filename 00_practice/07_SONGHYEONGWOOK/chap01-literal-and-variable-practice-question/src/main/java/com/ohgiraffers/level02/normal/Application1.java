@@ -14,6 +14,6 @@ public class Application1 {
         char a = 'a';
         int unicode = a;
 
-        System.out.println("문자 a의 unicode : " + unicode);
+        System.out.println("문자 " + a + "의 unicode : " + unicode);
     }
 }

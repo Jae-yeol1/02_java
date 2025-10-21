@@ -17,8 +17,8 @@ public class Application1 {
         int a = 20;
         int b = 30;
 
-        int addNum = a + b;
-        System.out.println("더하기 결과 : " + addNum);
+        int plusNum = a + b;
+        System.out.println("더하기 결과 : " + plusNum);
 
         int minusNum = a - b;
         System.out.println("빼기 결과 : " + minusNum);
@@ -27,7 +27,7 @@ public class Application1 {
         System.out.println("곱하기 결과 : " + multiNum);
 
         int divNum = a / b;
-        System.out.println("나누기 결과 : " + divNum);
+        System.out.println("나누기한 몫 : " + divNum);
 
         int modNum = a % b;
         System.out.println("나누기한 나머지 : " + modNum);

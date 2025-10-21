@@ -19,7 +19,8 @@ public class Application2 {
         int totalScore =(int) (koreanScore + mathScore + englishScore);
         System.out.println("총점 : " + totalScore);
 
-        int avgScore = (int) (koreanScore + mathScore + englishScore) / 3;
+//        int avgScore = (int) (koreanScore + mathScore + englishScore) / 3;
+        int avgScore = totalScore / 3;
         System.out.println("평균 : " + avgScore);
     }
 }

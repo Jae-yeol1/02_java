@@ -16,11 +16,11 @@ public class Application2 {
         double math = 50.6;
         double english = 70.8;
 
-        double totalScore = korean + math + english;
-        double avgScore = (korean + math + english) / 3;
+        int totalScore = (int) (korean + math + english);
+        int avgScore = totalScore / 3;
 
-        System.out.println("총점 : " + (int)totalScore);
-        System.out.println("평균 : " + (int)avgScore);
+        System.out.println("총점 : " + totalScore);
+        System.out.println("평균 : " + avgScore);
 
     }
 }
