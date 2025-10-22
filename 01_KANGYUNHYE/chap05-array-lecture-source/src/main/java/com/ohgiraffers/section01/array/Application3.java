@@ -1,0 +1,49 @@
+package com.ohgiraffers.section01.array;
+
+public class Application3 {
+    public static void main(String[] args) {
+        int num = 0;
+        System.out.println(num);
+
+        /*
+        * heap 영역에 할당될 경우 자료형에 따른 초기값이 설정되어 할당된다.
+        * 정수: 0
+        * 실수: 0.0
+        * 논리: false
+        * 문자: \u000
+        * 참조(String, 나중에는 클래스 ...) : null
+         */
+
+        int[] iarr = new int[10];
+        for(int j=0;j<iarr.length;j++){
+            System.out.println("iarr[j] = "+iarr[j]);
+        }
+        String[] sarr = new String[10];
+        for(int j=0;j<sarr.length;j++){
+            System.out.println("sarr[j] = "+sarr[j]);
+        }
+        char[] carr = new char[10];
+        for(int j=0;j<carr.length;j++){
+            System.out.println("carr[j] = "+carr[j]);
+        }
+        boolean[] barr = new boolean[10];
+        for(int j=0;j<barr.length;j++){
+            System.out.println("barr[j] = "+barr[j]);
+        }
+
+        /* 기본값 외의 값으로 초기화 하면서 배열을 생성하고 싶을 때 */
+//        int[] iarr2 = new int[]{11,22,33,44,55};
+        int[] iarr2 = {11,22,33,44,55};
+        for(int j=0;j<iarr2.length;j++){
+            System.out.println("iarr2[" + j + "] = "+iarr2[j]);
+        }
+
+        //짜장면, 짬뽕, 탕수육,삼겹살
+        String[] sarr2 = new String[""];
+        int[] test = new int[5];
+        test[0] = 11;
+        test[1] = 22;
+
+
+    }
+}

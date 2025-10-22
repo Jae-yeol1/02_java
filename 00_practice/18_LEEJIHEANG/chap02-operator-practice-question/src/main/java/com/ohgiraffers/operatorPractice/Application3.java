@@ -13,6 +13,19 @@ public class Application3 {
          * ---- 출력 결과 ---
          * 남자입니다.
          * */
+        char ch1 = 'M';
+
+        String result1 = (ch1 == 'M')? "남자입니다.": (ch1 == 'F')? "여성입니다.":"";
+
+        System.out.println(result1);
+
+        // 강사님 풀이
+
+        char gender = 'M'; // 남자
+
+        String result2 = (gender == 'M')? "남자입니다.": "여자입니다.";
+        System.out.println("result2 = " + result2);
+
 
         char gender = 'm';
 

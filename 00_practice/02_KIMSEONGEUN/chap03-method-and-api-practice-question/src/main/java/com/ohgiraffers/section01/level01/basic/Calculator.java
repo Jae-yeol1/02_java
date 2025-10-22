@@ -19,10 +19,7 @@ public class Calculator {
     // 출력하는 기능
 
     public String sumTwoNumber(int first, int second){
-        int sum = first + second;
-        String result = first + "과 " + second + "의 합은 " + sum + "입니다.";
-
-        System.out.println(result);
+        String result = "" + (first + second);
         return result;
     }
 
@@ -33,10 +30,7 @@ public class Calculator {
     // 출력하는 기능
 
     public String multiTwoNumber(int first, int second){
-        int multi = first * second;
-        String result = first + "과 " + second + "의 곱은 " + multi + "입니다.";
-
-        System.out.println(result);
+        String result = "" + (first + second);
         return result;
     }
 
@@ -47,9 +41,6 @@ public class Calculator {
     // 출력하는 기능
 
     public int multiTwoNumber2(int first, int second){
-        int multi = first * second;
-
-        System.out.println(first + "과 " + second + "의 곱은 " + multi + "입니다.");
-        return multi;
+        return first * second;
     }
 }
