@@ -36,15 +36,12 @@ public class Calculator {
         return result;
     }
 
-
     // 반환값 : int
     // 메소드명 : multiTwoNumber2
     // 두개의 전달인자를 받아 두수의 곱을 반환
     // 출력의 내용은 "10과 20의 곱은 200입니다." 라는 문장을
     // 출력하는 기능
     public int multiTwoNumber2(int first, int second) {
-        int multi = first * second;
-        System.out.println(first + "과 " + second + "의 곱은 " + multi + "입니다.");
-        return multi;
+        return first * second;
     }
 }

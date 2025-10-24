@@ -18,6 +18,7 @@ public class Application {
         String resultMessage2 = cal.multiTwoNumber(first, second);
         System.out.println(resultMessage2);
 
-        cal.multiTwoNumber2(first, second);
+        int result = cal.multiTwoNumber2(first, second);
+        System.out.println(first + "과 " + second + "의 곱은 " + result + "입니다.");
     }
 }

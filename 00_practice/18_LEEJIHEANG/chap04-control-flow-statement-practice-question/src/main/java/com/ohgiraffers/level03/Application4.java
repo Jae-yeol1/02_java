@@ -12,7 +12,30 @@ public class Application4 {
         *  (합격 조건 : 세 과목의 점수가 각각 40점 이상이면서 평균이 60점 이상일 경우)
         *  합격 했을 경우 과목 별 점수와 합계, 평균, “축하합니다, 합격입니다!”를 출력하고
         *  불합격인 경우에는 “불합격입니다.”를 출력하세요.
-        *
+         * */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("국어 점수 : ");
+        int kor = sc.nextInt();
+        System.out.print("영어 점수 : ");
+        int eng = sc.nextInt();
+        System.out.print("수학 점수 : ");
+        int mat = sc.nextInt();
+        int total = kor + eng + mat;
+        int avg = total / 3;
+        if (kor >= 40 && eng >= 40 && mat >= 40 && avg >= 60 ){
+            System.out.println("국어 : " + kor);
+            System.out.println("수학 : " + mat);
+            System.out.println("영어 : " + eng);
+            System.out.println("합계 : " + total);
+            System.out.println("평균 : " + avg);
+            System.out.println("축하합니다, 합격입니다!");
+        } else {
+            System.out.println("불합격입니다.");
+        }
+
+
+
+        /*
         *  -- 출력 예시
         *	ex 1.			ex 2.
         *	국어점수 : 88		국어점수 : 88
@@ -24,7 +47,9 @@ public class Application4 {
         *					    합계 : 183
         *					    평균 : 61.0
         *				 	    축하합니다, 합격입니다!
-        *
-        * */
+        */
+
     }
+
 }
+// 테스트완

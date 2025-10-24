@@ -22,5 +22,27 @@ public class Application3 {
          * 영어 점수 미달로 불합격입니다.
          * 수학 점수 미달로 불합격입니다.
          * */
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("국어 점수를 입력하세요 : ");
+        int a = scanner.nextInt();
+        System.out.print("영어 점수를 입력하세요 : ");
+        int b = scanner.nextInt();
+        System.out.print("수학 점수를 입력하세요 : ");
+        int c = scanner.nextInt();
+
+        int avg = a + b + c/3;
+        if (avg >=60 && a>=40 && b>=40 && c>=40) {
+            System.out.println("합격입니다.");
+        } else if (avg <60 ) {
+            System.out.println("평균 점수 미달로 불합격입니다.");
+        } else if (avg >=60 && a<40) {
+            System.out.println("국어 점수 미달입니다.");
+        } else if (avg >=60 && b<40) {
+            System.out.println("영어 점수 미달입니다.");
+
+        } else if (avg >=60 && c<40) {
+            System.out.println("수학 점수 미달입니다.");
+        }
     }
 }
+// 두 개가 미달인 경우는 어떻게 구현하는지 모르겠음..

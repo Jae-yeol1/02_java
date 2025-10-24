@@ -18,5 +18,26 @@ public class Application1 {
          * -- 출력 예시 --
          * 4 + 3 = 7
          */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("첫 번째 정수 : ");
+        int a = sc.nextInt();
+        System.out.print("두 번째 정수 : ");
+        int b = sc.nextInt();
+        System.out.print("연산 기호를 입력하세요 : ");
+        char ch = sc.next().charAt(0);
+        if (ch == '+') {
+            System.out.println(a + " + " + b + " = " + (a+b));
+        } else if (ch == '-') {
+            System.out.println(a + " - " + b + " = " + (a-b));
+        } else if (ch == '*') {
+            System.out.println(a + " * " + b + " = " + (a*b));
+        } else if (ch == '/') {
+            System.out.println(a + " / " + b + " = " + (a/b));
+        } else if (ch == '%') {
+            System.out.println(a + " % " + b + " = " + (a%b));
+        } else {
+            System.out.println("입력하신 연산은 없습니다.");
+        }
     }
 }
+// 테스트 완

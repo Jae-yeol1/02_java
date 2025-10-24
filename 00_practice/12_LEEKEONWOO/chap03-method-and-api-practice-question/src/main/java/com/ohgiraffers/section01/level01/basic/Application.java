@@ -8,8 +8,9 @@ public class Application {
         // 반환값 : x
         // 메소드명 : checkMethod
         // 호출하면 "메소드 호출 확인"을 출력하는 기능의 메소드
-        Calculator.checkMethod();
-
+        // Calculator.checkMethod();
+        Calculator calculator = new Calculator();
+        calculator.checkMethod();
 
         int a = 10;
         int b = 20;

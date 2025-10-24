@@ -15,11 +15,11 @@ public class Application1 {
 
         // 인덱스를 반복문으로 처리 가능
 
-        for(int i =0, value = 0; i < arr.length; i++){
+        for (int i = 0, value = 0; i < arr.length; i++) {
             arr[i] = value += 10;
         }
-        int sum =0;
-        for(int i=0; i<arr.length; i++){
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
         }
         System.out.println(sum);
@@ -32,11 +32,12 @@ public class Application1 {
         따라서 배열 인덱스 값을 변경하고자 할때는 사용할 수 없다.
          */
 
-        for(int i : arr){
+        for (int i : arr) {
             System.out.println("i = " + i);
             i = 0;
         }
-        for(int i : arr){
+        for (int i : arr) {
             System.out.println("i = " + i);
+        }
     }
 }

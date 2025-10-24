@@ -1,5 +1,7 @@
 package com.chaewookim.section01.method;
 
+import com.chaewookim.section02.package_and_import.test.Calculator;
+
 public class Application7 {
     public static void main(String[] args) {
 

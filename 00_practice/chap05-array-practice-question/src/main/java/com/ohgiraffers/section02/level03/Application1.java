@@ -5,6 +5,8 @@ public class Application1 {
     public static void main(String[] args) {
 
         int[][] arr = new int[4][4];
+        Application1 app = new Application1();
+        app.arrayTest1(arr);
     }
 
     /**

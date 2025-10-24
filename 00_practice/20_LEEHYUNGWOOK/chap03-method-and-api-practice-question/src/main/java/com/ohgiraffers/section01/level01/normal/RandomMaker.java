@@ -20,7 +20,7 @@ public class RandomMaker {
         String front = "앞면";
         String back = "뒷면";
 
-        double f_b = (Math.random() * 2);  // 1 - 0 + 1 = 23
+        double f_b = (Math.random() * 2);  // 1 - 0 + 1 = 2( Math.random * (곱할 값) + 원하는 개수
         String answer = ((int) f_b == 1) ? front : back;
         System.out.println(answer);
         return answer;

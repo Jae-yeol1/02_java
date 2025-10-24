@@ -1,0 +1,32 @@
+package com.greedy.level01.basic.member.run;
+
+import com.greedy.level01.basic.member.model.dto.MemberDTO;
+
+public class Application {
+    public static void main(String[] args) {
+        MemberDTO memberDTO = new MemberDTO();
+        System.out.println("id : " + memberDTO.getId());
+        System.out.println("pwd : " + memberDTO.getPwd());
+        System.out.println("name : "+memberDTO.getName());
+        System.out.println("age : " + memberDTO.getAge());
+        System.out.println("gender : " + memberDTO.getGender());
+        System.out.println("phone : " + memberDTO.getPhone());
+        System.out.println("email : " + memberDTO.getEmail());
+
+        memberDTO.setId("user01");
+        memberDTO.setPwd("Pass01");
+        memberDTO.setName("유넹");
+        memberDTO.setAge(18);
+        memberDTO.setGender('M');
+        memberDTO.setPhone("18888888888");
+        memberDTO.setEmail("18888888888@naver.com");
+
+        System.out.println("변경 후 id : " + memberDTO.getId());
+        System.out.println("변경 후 pwd : " + memberDTO.getPwd());
+        System.out.println("변경 후 name : "+memberDTO.getName());
+        System.out.println("변경 후 age : " + memberDTO.getAge());
+        System.out.println("변경 후 gender : " + memberDTO.getGender());
+        System.out.println("변경 후 phone : " + memberDTO.getPhone());
+        System.out.println("변경 후 email : " + memberDTO.getEmail());
+    }
+}

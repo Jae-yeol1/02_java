@@ -19,7 +19,7 @@ public class Application1 {
         System.out.print("정수를 하나 입력하세요 : ");
             int a = scanner.nextInt();
             if (a > 0) {
-                System.out.println("양수다");
+                System.out.println("양수다.-");
             } else {
                 System.out.println("양수가 아니다.");
         }

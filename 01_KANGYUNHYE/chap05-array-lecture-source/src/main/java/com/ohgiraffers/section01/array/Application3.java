@@ -10,7 +10,7 @@ public class Application3 {
         * 정수: 0
         * 실수: 0.0
         * 논리: false
-        * 문자: \u000
+        * 문자: u000
         * 참조(String, 나중에는 클래스 ...) : null
          */
 
@@ -39,10 +39,10 @@ public class Application3 {
         }
 
         //짜장면, 짬뽕, 탕수육,삼겹살
-        String[] sarr2 = new String[""];
-        int[] test = new int[5];
-        test[0] = 11;
-        test[1] = 22;
+        String[] sarr2 = {"짜장면", "짬뽕", "탕수육", "삼겹살"};
+        for(int i = 0; i < sarr2.length; i++){
+            System.out.println("sarr2[" + i + "] : " + sarr2[i]);
+        }
 
 
     }

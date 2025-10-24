@@ -18,5 +18,21 @@ public class Application3 {
          * 숫자를 입력하세요 : 1
          * 겨울
          * */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("숫자를 입력하세요 : ");
+        int a = sc.nextInt();
+        if (a >= 1 && a <= 12) {
+            if (a == 3|| a == 4 || a == 5) {
+                System.out.println("봄");
+            } else if (a == 6 || a == 7 || a == 8) {
+                System.out.println("여름");
+            } else if (a == 9 || a == 10 || a == 11) {
+                System.out.println("가을");
+            } else {
+                System.out.println("겨울");
+            }
+        } else {
+            System.out.println(" 잘못 입력하셨습니다. ");
+        }
     }
 }
